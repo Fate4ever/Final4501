@@ -11,6 +11,7 @@
         id SERIAL PRIMARY KEY,
         created_date DATE,
         incident_zip VARCHAR(10),
+        complaint_type VARCHAR(100),
         latitude FLOAT,
         longitude FLOAT,
         geometry GEOMETRY
@@ -22,6 +23,8 @@
         latitude FLOAT,
         longitude FLOAT,
         zipcode VARCHAR(10),
+        health VARCHAR(100),
+        status VARCHAR(100),
         spc_common VARCHAR(100),
         geometry GEOMETRY
     );
@@ -29,7 +32,7 @@
     CREATE TABLE IF NOT EXISTS df_zillow_data (
         RegionID INTEGER PRIMARY KEY,
         SizeRank INT,
-        RegionName VARCHAR(100),
+        RegionName VARCHAR(10),
         City VARCHAR(100),
         CountyName VARCHAR(100),
         "2023-01-31" FLOAT,
