@@ -1,5 +1,9 @@
 .DS_Store
 zillow_rent_data.csv
-git add .gitignore
-git commit -m "Add .gitignore"
-git status --ignored.
+nyc_zipcodes.dbf
+nyc_zipcodes.sbx
+nyc_zipcodes.sbn
+nyc_zipcodes.prj
+nyc_zipcodes.shx
+nyc_zipcodes.shp
+nyc_zipcodes.shp.xml
