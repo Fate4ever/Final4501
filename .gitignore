@@ -1,2 +1,5 @@
-*.DS_Store
+.DS_Store
 zillow_rent_data.csv
+git add .gitignore
+git commit -m "Add .gitignore"
+git status --ignored.
