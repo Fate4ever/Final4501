@@ -1,4 +1,5 @@
 .DS_Store
+data
 zillow_rent_data.csv
 nyc_zipcodes.dbf
 nyc_zipcodes.sbx
